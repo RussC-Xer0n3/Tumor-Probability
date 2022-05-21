@@ -80,7 +80,7 @@
       <br><a href="https://russc-xer0n3.github.io">My CV and additional information</a>
     <br>
 </nav>
-# Tumor Probability
+# Probabalistic regression determination
 ## Looking at programatic probability calculations
 
 ### Taking a look at the probability of regression or progression of a single malenoma / tumor of type or a large data set of multiple types
@@ -98,6 +98,7 @@ The intital interest was of data sets from arrays or lists, so how do we process
 We have to take the standardised approach and write the nested loops in a Big O notation form to process the data sets as some are multi-dimensional arrays,
 
 ### Multi-dimensional array example
+
 ```
 //Historical for generic use case of type using singular use case as example
 float a[3][2] = {{x, y}, {x, y}, {x, y}};
@@ -105,6 +106,7 @@ float b[3][2] = {{x, y}, {x, y}, {x, y}};
 ```
 
 ### Nested loops
+
 When processing Multi-dimensional arrays or datasets, we should really process them with nested loops since we can interject at various stages in the process to get a data feed of what id happening and make comparisons of efficiency for example...
  ```
  public void float multiple_of_type(a, b) {
@@ -151,6 +153,7 @@ return;
 }
  ```
 ### Summary
+
 To summarise, the purpose of the project here was simply to look at sigmoid functions and hopefully valid methods and dataset processing to return correct results based on probabalistic processing using Melanomas as a use-case example.
 
 <head>
