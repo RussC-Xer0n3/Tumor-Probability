@@ -46,6 +46,17 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* code and preformatted text paragraphs */
+p .code {
+  font-family : arial, verdana;
+  font-size : 0.5 em;
+}
+
+code {
+  display : block;
+  background-color : #d1d1e0;
+  position : relative;
+}
 </style>
 <nav class="w3-container w3-teal w3-center w3-margin-top">
     <div class="dropdown">
@@ -101,9 +112,11 @@ We have to take the standardised approach and write the nested loops in a Big O 
 ### Multi-dimensional array example
 
 <code>
-<p>//Historical for generic use case of type using singular use case as example</p>
-<p>float a[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
-<p>float b[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
+  <pre>
+    <p class="code">//Historical for generic use case of type using singular use case as example</p>
+    <p class="code">float a[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
+    <p class="code">float b[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
+  </pre>
 </code>
 
 ### Nested loops
