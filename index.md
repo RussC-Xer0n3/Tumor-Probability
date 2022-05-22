@@ -1,5 +1,5 @@
 <style>
-/* The dropdown container */
+/* The dropdown container method */
 .dropdown {
   float: left;
   overflow: hidden;
