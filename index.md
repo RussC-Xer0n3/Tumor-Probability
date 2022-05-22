@@ -52,7 +52,7 @@ p .code {
   font-size : 0.5 em;
 }
 
-code {
+pre {
   display : block;
   background-color : #d1d1e0;
   position : relative;
@@ -111,13 +111,12 @@ We have to take the standardised approach and write the nested loops in a Big O 
 
 ### Multi-dimensional array example
 
-<code>
-  <pre>
-    <p class="code">//Historical for generic use case of type using singular use case as example</p>
-    <p class="code">float a[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
-    <p class="code">float b[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
-  </pre>
-</code>
+
+<pre>
+  <p class="code">//Historical for generic use case of type using singular use case as example</p>
+  <p class="code">float a[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
+  <p class="code">float b[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
+</pre>
 
 ### Nested loops
 
