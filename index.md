@@ -102,8 +102,8 @@ We have to take the standardised approach and write the nested loops in a Big O 
 
 ```
 //Historical for generic use case of type using singular use case as example
-float a[3][2] = {{x, y}, {x, y}, {x, y}};
-float b[3][2] = {{x, y}, {x, y}, {x, y}};
+float a[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;
+float b[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;
 ```
 
 ### Nested loops
