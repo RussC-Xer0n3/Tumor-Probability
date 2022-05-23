@@ -118,9 +118,7 @@ We have to take the standardised approach and write the nested loops in a Big O 
 
 
 <pre>
-  <p class="code">//Historical for generic use case of type using singular use case as example</p>
-  <p class="code">float a[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
-  <p class="code">float b[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
+  <p class="code">//Historical for generic use case of type using singular use case as example</p><br><p class="code">float a[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p><br><p class="code">float b[3][2] = &#123;&#123;x, y&#125;, &#123;x, y&#125;, &#123;x, y&#125;&#125;;</p>
 </pre>
 
 ### Nested loops
