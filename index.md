@@ -116,7 +116,7 @@ to repeat the explaination, probability density function (pdf) operating on y va
 
 What we are looking to acheive is set out a average based on a single size y equal to one from existing datasets. The function categorises any growth from zero (any positive number) as being close to 1 and any regression from zero (zero and negative numbers) as being zero. The function then calculates the probability of a regression or progression depending on the average result.
 
-![img] (https://images.deepai.org/user-content/1697121026-thumb-1256.svg)
+![img](https://images.deepai.org/user-content/1697121026-thumb-1256.svg)
 
 ### Initial use case 
 The intital interest was of data sets from arrays or lists, so how do we process them, we could try using the Mathematical notation in a compressed code form, however, if we need to break in and out of that compressed code it becomes more difficult and more processor intensive to write more Math to print out data and behaviour.
