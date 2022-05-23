@@ -57,13 +57,6 @@ pre {
   background-color : #c2c2d6;
   position : relative;
 }
-  
-img {
-  display : block;
-  position : relative;
-  margin-left : 40%;
-  margin-right : 40%;
-}
 </style>
 <nav class="w3-container w3-teal w3-center w3-margin-top">
     <div class="dropdown">
