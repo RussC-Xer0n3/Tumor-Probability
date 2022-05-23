@@ -102,15 +102,17 @@ img {
 # Probabalistic regression determination
 ## Looking at programatic probability calculations
 
+Using an example of Melanoma, we will take a brief look at programatically solving a probability 
+
 ### Taking a look at the probability of regression or progression of a single Melanoma / tumor of type or a large data set of multiple types
 
-From the example set out in [Thomas Wood' example](https://deepai.org/machine-learning-glossary-and-terms/sigmoid-function/) of logistic Sigmoid Function in Logistic Regression, the Math laid out there in probability density function seemed to be a nice start to look into probability in example data sets of both singular Melanoma and multiples and to give some additional practice for applied mathematics, software engineering and problem solving using probability.
+From [Thomas Wood' example](https://deepai.org/machine-learning-glossary-and-terms/sigmoid-function/) of Logistic Sigmoid Function in Logistic Regression, the Math laid out there in probability density function seemed to be a nice start to look into probability in example data sets of both singular Melanoma and multiples and to give some additional practice for applied mathematics, software engineering and problem solving using probability.
 
 Here set out we have the probability density function :
 
-<img src="Tumor-function.jpeg" alt="probability density function operating on y variable is equal to probability density function y equals one, divided over the sum of probability density function y equals zero plus probability density function y equals one permitting a sigmoid sitribution of either positive result for progression where a clustering is in the higher range if the sigmoid function is closer to one and a probability of regression if the sigmoid cluster is closer to zero in melanomas or tumors" style="width: 193.688px;"/>
+<img src="Tumor-function.jpeg" alt="f(y) = y(1) / y(0) + y(1)" style="width: 193.688px;"/>
 
-to repeat the explaination, probability density function (pdf) operating on y variable is equal to probability density function y equals one, divided over the sum of probability density function y equals zero and probability density function y equals one permitting a sigmoid sitribution of either positive result for progression where a clustering is in the higher range if the sigmoid function is closer to one and a probability of regression if the sigmoid cluster is closer to zero in melanomas or tumors.
+to repeat the explaination, probability density function (pdf) operating on y variable is equal to probability density function y equals one, divided over the sum of probability density function y equals zero and probability density function y equals one permitting a sigmoid sitribution of either positive result for progression where a clustering is in the higher range if the sigmoid function is closer to one and a probability of regression if the sigmoid cluster is closer to zero in Melanomas or tumors.
 
 What we are looking to acheive is set out a average based on a single size y equal to one from existing datasets. The function categorises any growth from zero (any positive number) as being close to 1 and any regression from zero (zero and negative numbers) as being zero. The function then calculates the probability of a regression or progression depending on the average result.
 
