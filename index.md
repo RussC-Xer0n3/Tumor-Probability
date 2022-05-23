@@ -108,13 +108,13 @@ From the example set out in [Thomas Wood' example](https://deepai.org/machine-le
 
 Here set out we have the probability density function :
 
-<img src="Tumor-function.png" alt="probability density function operating on y variable is equal to probability density function y equals one, divided over the sum of probability density function y equals zero plus probability density function y equals one permitting a sigmoid sitribution of either positive result for progression where a clustering is in the higher range if the sigmoid function is closer to one and a probability of regression if the sigmoid cluster is closer to zero in melanomas or tumors" style="width: 193.688px;"/>
+<img src="Tumor-function.jpeg" alt="probability density function operating on y variable is equal to probability density function y equals one, divided over the sum of probability density function y equals zero plus probability density function y equals one permitting a sigmoid sitribution of either positive result for progression where a clustering is in the higher range if the sigmoid function is closer to one and a probability of regression if the sigmoid cluster is closer to zero in melanomas or tumors" style="width: 193.688px;"/>
 
 to repeat the explaination, probability density function (pdf) operating on y variable is equal to probability density function y equals one, divided over the sum of probability density function y equals zero and probability density function y equals one permitting a sigmoid sitribution of either positive result for progression where a clustering is in the higher range if the sigmoid function is closer to one and a probability of regression if the sigmoid cluster is closer to zero in melanomas or tumors.
 
 What we are looking to acheive is set out a average based on a single size y equal to one from existing datasets. The function categorises any growth from zero (any positive number) as being close to 1 and any regression from zero (zero and negative numbers) as being zero. The function then calculates the probability of a regression or progression depending on the average result.
 
-<img src="Tumor-prognosis.png" alt="S shaped curve with plot of dotts on the higher and lower regions where each dot is a positiive or negative result" style="width: 386px;"/>
+<img src="Tumor-prognosis.jpeg" alt="S shaped curve with plot of dotts on the higher and lower regions where each dot is a positiive or negative result" style="width: 386px;"/>
 
 ### Initial use case 
 The intital interest was of data sets from arrays or lists, so how do we process them, we could try using the Mathematical notation in a compressed code form, however, if we need to break in and out of that compressed code it becomes more difficult and more processor intensive to write more Math to print out data and behaviour.
