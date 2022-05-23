@@ -105,9 +105,9 @@ Here set out we have the probability density function :
 
 ![img](https://images.deepai.org/user-content/1553445820-thumb-8570.svg)
 
-to repeat the explaination, probability density function (pdf) operating on y variable is equal to probability density function y equals one, divided over the sum of probability density function y equals zero and probability density function y equals one permitting a sigmoid sitribution of either positive result for progression where a clustering is in the higher range if the sigmoid function is closer to one and a probability of regression if the sigmoid cluster is closer to zero in Melanomas or tumors.
+to repeat the explaination, probability density function (pdf) operating on y variable, which is our measurement, divides over the sum of progressive and regressive recordings in the dataset. It permits for categorisation using a sigmoid distribution of either positive result for progression, where a clustering is in the higher range close to binary 1 on the Computer and a negative result representing regression if the sigmoid cluster is closer to binary 0 from Melanoma measurement data sets.
 
-What we are looking to acheive is set out a average based on a single size y equal to one from existing datasets. The function categorises any growth from zero (any positive number) as being close to 1 and any regression from zero (zero and negative numbers) as being zero. The function then calculates the probability of a regression or progression depending on the average result.
+What we are looking to acheive is set out a average (probability) from existing datasets based on a single size y. The function categorises any growth from zero (any positive number) as being close to 1 and any regression from zero (zero and negative numbers) as being zero. The function then calculates the probability of a regression or progression depending on the average result.
 
 ![img](https://images.deepai.org/user-content/1697121026-thumb-1256.svg)
 
