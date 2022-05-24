@@ -22,13 +22,14 @@ based on a single usecase with historical data about th individual case
 
 public void float singular(x, y) {
 //where l is the probability sum
+float size = 1.58; // Melanoma size in cm or mm, be specific
 for (int l = 0; l <= (x[l], y[l]); l++) {
 //for each index in x
     for (int i = 0; i <= x[i]; i++){
 //for each index in y
         for (int j = 0; j <= y[j]; j++) {
 //calculate the probability by dividing the sum of both over each iteration of self
-            float z = (i + j) / l;
+            float z = (i + j) / size;
 
             if (z <= 0.500000) {
                 printf("likely hood %f.6", 1 - z, "percent of regression");
@@ -52,10 +53,11 @@ cases of the same tumor type
 public void float multiple_of_type(a, b) {
 
 //where l is the probability sum
-for (int q = 0; q <= (a[q][q], b[q][q]); l++) {
+for (int q = 0; q <= (a[q][q], b[q][q]); q++) {
 
 float D = 0.000000;
 float S = 0.000000;
+float size = 1.56; // Melanoma size in cm or mm, be specific
 
 //for each index in a
     for (int i = 0; i <= a[i][i]; i++) {
@@ -76,7 +78,7 @@ float S = 0.000000;
     }
 
 //calculate the probability by dividing the sum of both over each iteration of self
-float U = (D + S) / q;
+float U = (D + S) / size;
 
 }
 
