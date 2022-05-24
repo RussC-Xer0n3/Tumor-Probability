@@ -127,13 +127,20 @@ We have to take the standardised approach and write the nested loops in a Big O 
 
 When processing Multi-dimensional arrays or datasets, we should really process them with nested loops since we can interject at various stages in the process to get a data feed of what id happening and make comparisons of efficiency for example...
  ```
- public void float multiple_of_type(a, b) {
+/*
+Designing to calculate probability of a tumor type progressing
+based on a multiple instances with historical data about multiple
+cases of the same tumor type
+*/
+
+public void float multiple_of_type(a, b) {
 
 //where l is the probability sum
-for (int q = 0; q <= (a[q][q], b[q][q]); l++) {
+for (int q = 0; q <= (a[q][q], b[q][q]); q++) {
 
 float D = 0.000000;
 float S = 0.000000;
+float size = 1.56; // Melanoma size in cm or mm, be specific
 
 //for each index in a
     for (int i = 0; i <= a[i][i]; i++) {
@@ -146,10 +153,7 @@ float S = 0.000000;
 
 //for each index in b
     for (int i = 0; i <= b[i][i]; i++) {
-    
-////<<<< print out some extra data and use TIMERS and COUNTERS for measurement >>>>////
-
-    for (int j = 0; j <= a[i][j]; j++) {
+        for (int j = 0; j <= a[i][j]; j++) {
             for (int l = 0; l <= j[l]; l++) {
                 float D = (l + j) / i;    
             }
@@ -157,7 +161,7 @@ float S = 0.000000;
     }
 
 //calculate the probability by dividing the sum of both over each iteration of self
-float U = (D + S) / q;
+float U = (D + S) / size;
 
 }
 
